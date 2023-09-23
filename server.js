@@ -9,7 +9,7 @@ const io = socketIo(server);
 
 // Configura CORS para permitir el acceso desde tu red local
 app.use(cors({
-  origin: 'https://proyect0012.000webhostapp.com/server', // Reemplaza con la dirección IP y puerto de tu servidor
+  origin: 'http://192.168.100.188:3000/', // Reemplaza con la dirección IP y puerto de tu servidor
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
